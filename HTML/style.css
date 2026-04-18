@@ -134,3 +134,22 @@ footer {
     color: #121212;
     transform: scale(1.02);
 }
+
+.contato-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn-contato:hover {
+    background-color: #ffffff;
+    color: #121212;
+    transform: scale(1.02);
+}
+
+.email-texto {
+    margin: 0;
+    color: #e0e0e0;
+    font-size: 0.95em;
+}
