@@ -7,9 +7,13 @@ body {
     font-family: 'Times New Roman', Times, serif;
     line-height: 1.6;
     margin: 0;
-    padding: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 main {
@@ -17,80 +21,95 @@ main {
 }
 
 
-header {
-    margin-bottom: 30px;
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
 }
 
-header h1 {
+.foto-perfil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #D4AF37;
+}
+
+.header-texto {
+    flex: 1;
+}
+
+.header-texto h1 {
     color: #D4AF37;
     font-size: 2.5em;
-    margin-bottom: 5px;
+    margin: 0;
 }
 
-header p {
+.header-texto p {
     color: #b0b0b0;
     font-size: 1.1em;
+    margin: 5px 0 0 0;
 }
 
 h2 {
     color: #D4AF37;
-    border-bottom: 2px solid rgba(212, 175, 55, 0.3);
-    padding-bottom: 8px;
-    margin-top: 25px;
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+    padding-bottom: 5px;
 }
 
-h3 {
+.card {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
     color: #D4AF37;
-    margin-top: 15px;
-    margin-bottom: 5px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
-a {
-    color: #D4AF37;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    color: #E5C158;
-    text-decoration: underline;
+.card p, .card ul {
+    margin: 0;
 }
 
 ul {
     list-style-type: square;
     padding-left: 20px;
+    margin: 0;
 }
 
 li {
     margin-bottom: 8px;
 }
 
-section {
-    margin-bottom: 25px;
+a {
+    color: #D4AF37;
+    text-decoration: none;
 }
+
+a:hover {
+    text-decoration: underline;
+    color: #E5C158;
+}
+
 
 footer {
-    margin-top: 40px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    margin-top: 50px;
+    padding-top: 20px;
+    text-align: center;
     color: #D4AF37;
-    font-size: 0.9em;
     border-top: 1px solid rgba(212, 175, 55, 0.3);
+    font-size: 0.9em;
 }
 
-.container {
-    max-width: 800px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.foto-perfil {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    display: block;
-    margin: 0 auto 20px auto;
-    border: 3px solid #D4AF37;
+.footer-small {
+    font-size: 0.8em;
+    color: #888;
+    margin-top: 5px;
 }
