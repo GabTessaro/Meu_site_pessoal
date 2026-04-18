@@ -8,12 +8,21 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 40px 20px;
+
+}
+
+.body {
+    border: 3px solid #000000; 
+    border-radius: 15px;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1000px;
     width: 100%;
     margin: 0 auto;
+    background-color: #000000;
+    border-radius: 15px;
+    padding: 30px;
 }
 
 main {
