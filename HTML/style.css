@@ -113,3 +113,24 @@ footer {
     color: #888;
     margin-top: 5px;
 }
+
+.btn-contato {
+    background-color: #D4AF37;
+    color: #121212;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 8px;
+    text-align: center;
+    transition: all 0.3s ease;
+    flex: 1;
+}
+
+.btn-contato:hover {
+    background-color: #ffffff;
+    color: #121212;
+    transform: scale(1.02);
+}
